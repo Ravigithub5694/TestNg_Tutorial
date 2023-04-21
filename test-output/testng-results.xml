@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="12" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-15T11:08:30 IST" name="Loandepartment" finished-at="2022-12-15T11:08:30 IST" duration-ms="142">
+    <groups>
+      <group name="smoke">
+        <method signature="Sample3.MobilelogincHomeloan()[pri:0, instance:test1.Sample3@793be5ca]" name="MobilelogincHomeloan" class="test1.Sample3"/>
+        <method signature="sample2.APIlogincarloan()[pri:0, instance:test1.sample2@22ef9844]" name="APIlogincarloan" class="test1.sample2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-12-15T11:08:30 IST" name="PersonalLoan" finished-at="2022-12-15T11:08:30 IST" duration-ms="69">
+      <class name="test1.Sample3">
+        <test-method signature="APIloginHomeloan()[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="APIloginHomeloan" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginHomeloan -->
+        <test-method signature="MobilelogincHomeloan()[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="MobilelogincHomeloan" finished-at="2022-12-15T11:08:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilelogincHomeloan -->
+        <test-method signature="usedata(java.lang.String,java.lang.String)[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="usedata" data-provider="getdata" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedata -->
+        <test-method signature="usedata(java.lang.String,java.lang.String)[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="usedata" data-provider="getdata" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedata -->
+        <test-method signature="usedata(java.lang.String,java.lang.String)[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="usedata" data-provider="getdata" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedata -->
+        <test-method signature="webloginHomeloan()[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="webloginHomeloan" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginHomeloan -->
+      </class> <!-- test1.Sample3 -->
+      <class name="test1.Sample1">
+        <test-method is-config="true" signature="test5()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test5" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test1()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test1" finished-at="2022-12-15T11:08:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="test6()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test6" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="test5()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test5" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test2()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test2" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="test6()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test6" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test3(java.lang.String)[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test3" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method test3 but has not been marked @Optional or defined
+in E:\Eclipseworkspace\TestNgTutorial1\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method test3 but has not been marked @Optional or defined
+in E:\Eclipseworkspace\TestNgTutorial1\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- test1.Sample1 -->
+    </test> <!-- PersonalLoan -->
+    <test started-at="2022-12-15T11:08:30 IST" name="Carloan" finished-at="2022-12-15T11:08:30 IST" duration-ms="9">
+      <class name="test1.sample2">
+        <test-method signature="APIlogincarloan()[pri:0, instance:test1.sample2@22ef9844]" started-at="2022-12-15T11:08:30 IST" name="APIlogincarloan" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIlogincarloan -->
+        <test-method is-config="true" signature="prioryty1()[pri:0, instance:test1.sample2@22ef9844]" started-at="2022-12-15T11:08:30 IST" name="prioryty1" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prioryty1 -->
+        <test-method is-config="true" signature="prioryty()[pri:0, instance:test1.sample2@22ef9844]" started-at="2022-12-15T11:08:30 IST" name="prioryty" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prioryty -->
+        <test-method signature="weblogincarloan()[pri:0, instance:test1.sample2@22ef9844]" started-at="2022-12-15T11:08:30 IST" name="weblogincarloan" finished-at="2022-12-15T11:08:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+        <test-method is-config="true" signature="prioryty2()[pri:0, instance:test1.sample2@22ef9844]" started-at="2022-12-15T11:08:30 IST" name="prioryty2" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prioryty2 -->
+      </class> <!-- test1.sample2 -->
+      <class name="test1.Sample3">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:test1.Sample3@793be5ca]" started-at="2022-12-15T11:08:30 IST" name="beforesuite" finished-at="2022-12-15T11:08:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+      </class> <!-- test1.Sample3 -->
+      <class name="test1.Sample1">
+        <test-method is-config="true" signature="test4()[pri:0, instance:test1.Sample1@6bedbc4d]" started-at="2022-12-15T11:08:30 IST" name="test4" finished-at="2022-12-15T11:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- test1.Sample1 -->
+    </test> <!-- Carloan -->
+  </suite> <!-- Loandepartment -->
+</testng-results>
